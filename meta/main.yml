@@ -5,7 +5,7 @@ galaxy_info:
   description: Install and configure Memcached for Linux
   company: ShadowNet
   license: Apache-2.0
-  min_ansible_version: "2.4"
+  min_ansible_version: "2.1"
   platforms:
     - name: EL
       versions:
