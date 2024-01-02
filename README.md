@@ -1,10 +1,10 @@
-# [Ansible role memcached](#memcached)
+# Ansible role [memcached](https://galaxy.ansible.com/ui/standalone/roles/buluma/memcached/documentation)
 
 Install and configure Memcached for Linux
 
-|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-memcached/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-memcached)|[![downloads](https://img.shields.io/ansible/role/d/4764)](https://galaxy.ansible.com/buluma/memcached)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/memcached)](https://galaxy.ansible.com/ui/standalone/roles/buluma/memcached/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -68,9 +68,9 @@ memcached_threads: 4
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
+| Requirement | GitHub | Version |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
@@ -104,14 +104,9 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-memcached/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-memcached/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-Please consider [sponsoring me](https://github.com/sponsors/buluma).
-
-### [Special Thanks](#special-thanks)
-
-Template inspired by [Robert de Bock](https://github.com/robertdebock)
