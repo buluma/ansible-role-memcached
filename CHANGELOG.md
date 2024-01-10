@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-memcached/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/setup-python from 2 to 5 [\#12](https://github.com/buluma/ansible-role-memcached/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#11](https://github.com/buluma/ansible-role-memcached/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 2 to 4 [\#10](https://github.com/buluma/ansible-role-memcached/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.1.0](https://github.com/buluma/ansible-role-memcached/tree/3.1.0) (2024-01-06)
 
 [Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.0.0...3.1.0)
