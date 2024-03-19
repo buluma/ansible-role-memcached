@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-memcached/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#17](https://github.com/buluma/ansible-role-memcached/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.2.0](https://github.com/buluma/ansible-role-memcached/tree/3.2.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.1.0...3.2.0)
