@@ -87,7 +87,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8, 9|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, jammy|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, jammy, lunar|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
 
 The minimum version of Ansible required is 2.1, tests have been done to:
@@ -109,4 +109,3 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Shadow Walker](https://buluma.github.io/)
-
