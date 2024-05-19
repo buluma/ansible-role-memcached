@@ -47,7 +47,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ```yaml
 ---
 memcached_port: 11211
-memcached_listen_ip: 127.0.0.1
+memcached_listen_ip: "127.0.0.1"
 
 memcached_memory_limit: 64
 memcached_connections: 1024
