@@ -5,4 +5,4 @@
 repository:
   description: Install and configure Memcached for Linux
   homepage: https://buluma.github.io/
-  topics: web, database, memcached, keyvalue, kv, cache, caching, performance, ansible, molecule, tox, playbook
+  topics: web, database, memcached, keyvalue, kv, cache, caching, performance, ansible, molecule, playbook

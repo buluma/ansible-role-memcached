@@ -1,31 +1,27 @@
----
 galaxy_info:
   role_name: memcached
   author: buluma
   description: Install and configure Memcached for Linux
   company: ShadowNet
   license: Apache-2.0
-  min_ansible_version: "2.1"
+  min_ansible_version: '2.1'
   platforms:
-    - name: EL
-      versions:
-        - "8"
-        - "9"
-    - name: Ubuntu
-      versions:
-        - focal
-        - jammy
-        - lunar
-    - name: Debian
-      versions:
-        - all
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
   galaxy_tags:
-    - web
-    - database
-    - memcached
-    - keyvalue
-    - kv
-    - cache
-    - caching
-    - performance
+  - web
+  - database
+  - memcached
+  - keyvalue
+  - kv
+  - cache
+  - caching
+  - performance
 dependencies: []
