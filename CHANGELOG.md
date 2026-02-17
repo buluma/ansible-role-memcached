@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-memcached/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Update action [\#8](https://github.com/buluma/ansible-role-memcached/issues/8)
+- rebuild action [\#7](https://github.com/buluma/ansible-role-memcached/issues/7)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-memcached/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.2.0...24.3.31)
