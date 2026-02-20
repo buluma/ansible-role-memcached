@@ -1,0 +1,9 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "memcached" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+  }
+  "memcached" -> "buluma.bootstrap"
+}
