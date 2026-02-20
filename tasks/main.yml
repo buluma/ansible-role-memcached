@@ -10,11 +10,15 @@
 
 # Setup/install tasks.
 - name: Update apt cache.
-  ansible.builtin.apt: update_cache=yes cache_valid_time=86400
+  ansible.builtin.apt:
+    update_cache: "yes"
+    cache_valid_time: "86400"
   when: ansible_os_family == 'Debian'
 
 - name: Install Memcached.
-  ansible.builtin.package: name=memcached state=present
+  ansible.builtin.package:
+    name: memcached
+    state: present
   register: memcached_install
 
 # Configure Memcached.
@@ -24,8 +28,11 @@
     dest: "{{ memcached_config_file }}"
     owner: root
     group: root
-    mode: 0644
+    mode: "0644"
   notify: Restart memcached
 
 - name: Ensure Memcached is started and set to run on startup.
-  ansible.builtin.service: name=memcached state=started enabled=yes
+  ansible.builtin.service:
+    name: memcached
+    state: started
+    enabled: "yes"
