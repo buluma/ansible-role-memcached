@@ -2,9 +2,9 @@
 
 Install and configure Memcached for Linux
 
-|GitHub|GitLab|Downloads|Version|
-|------|------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-memcached/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-memcached/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-memcached/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-memcached)|[![downloads](https://img.shields.io/ansible/role/d/buluma/memcached)](https://galaxy.ansible.com/buluma/memcached)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/releases/)|
+|GitHub|Issues|Pull Requests|Version|Downloads|
+|------|------|-------------|-------|---------|
+|[![github](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-memcached/actions/workflows/molecule.yml)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/pulls/)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-memcached.svg)](https://github.com/buluma/ansible-role-memcached/releases/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/memcached)](https://galaxy.ansible.com/ui/standalone/roles/buluma/memcached/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -17,12 +17,12 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   become: true
 
   pre_tasks:
-  - name: Update apt cache.
-    apt: update_cache=yes cache_valid_time=600
-    when: ansible_os_family == 'Debian'
+    - name: Update apt cache.
+      apt: update_cache=yes cache_valid_time=600
+      when: ansible_os_family == 'Debian'
 
   roles:
-  - role: buluma.memcached
+    - role: buluma.memcached
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-memcached/blob/master/molecule/default/prepare.yml):
@@ -35,7 +35,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   become: yes
 
   roles:
-  - role: buluma.bootstrap
+    - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -68,26 +68,27 @@ memcached_threads: 4
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | GitLab |
-|-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
+| Requirement | GitHub |
+|-------------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|
 
 ## [Context](#context)
 
 This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-memcached/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/buluma):
+This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
-|[Debian](https://hub.docker.com/r/buluma/debian)|all|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
 
 The minimum version of Ansible required is 2.1, tests have been done on:
 
@@ -104,3 +105,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
