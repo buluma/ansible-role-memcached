@@ -9,6 +9,10 @@
 - Update action [\#8](https://github.com/buluma/ansible-role-memcached/issues/8)
 - rebuild action [\#7](https://github.com/buluma/ansible-role-memcached/issues/7)
 
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#20](https://github.com/buluma/ansible-role-memcached/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-memcached/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-memcached/compare/3.2.0...24.3.31)
