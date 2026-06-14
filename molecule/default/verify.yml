@@ -1,0 +1,16 @@
+---
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Check if memcached is running
+      ansible.builtin.service_facts:
+
+    - name: Assert memcached is active
+      ansible.builtin.assert:
+        that:
+          - "'memcached' in services"
+          - "services['memcached']['state'] == 'running'"
+        quiet: true
