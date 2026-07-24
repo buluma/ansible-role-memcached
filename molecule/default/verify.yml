@@ -11,6 +11,6 @@
     - name: Assert memcached is active
       ansible.builtin.assert:
         that:
-          - "'memcached' in services"
-          - "services['memcached']['state'] == 'running'"
+          - "'memcached.service' in services"
+          - "services['memcached.service']['state'] == 'running'"
         quiet: true
